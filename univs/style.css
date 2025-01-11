@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/italiana');
+
+*{
+    font-family: 'Italiana', sans-serif;
+}
+
+#header{
+    display: flex;
+}
+
+.logo{
+    width: 149px;
+    height: 95px;
+    padding: 16px;
+    margin-left: 8px;
+}
+
+h1{
+    font-size: 64px;
+    padding: 12px;
+    margin-left: 235px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#hall-list{
+    display: flex;
+    gap: 32px 250px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 750px;
+}
+
+.hall{
+    width: 250px;
+}
+
+h2{
+    text-align: center;
+}
+
+img.hall-img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}

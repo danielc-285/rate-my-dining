@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    flex: 1;
+    background-color: lightgray;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 56px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px
+}
+
+#search{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 48px;
+    text-align: left;
+    padding: 8px;
+    font-weight: 550;
+    background-color: white;
+}
+
+#drop{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    background-color: lightgray;
+}
