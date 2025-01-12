@@ -2,10 +2,11 @@ let search = document.getElementById("search");
 let entries = [];
 entries[0] = null;
 let count = 0;
+let img = document.getElementById("img");
 
 search.addEventListener("click", function dropdown(){
     count++;
-    hoverSearch = true;
+    img.src = "./dropdownup.png";
     let drop = document.getElementById("drop");
     entries[0] = document.createElement("a");
     entries[0].setAttribute("href", "./univs/ucsb.html");
@@ -14,14 +15,13 @@ search.addEventListener("click", function dropdown(){
     search.style.outlineColor = "white";
     entries[0].addEventListener("mouseover", function show(){
         entries[0].style.color = "blue";
-        hoverEntries = true;
     });
     entries[0].addEventListener("mouseleave", function rem(){
         entries[0].style.color = "black";
-        hoverEntries = false;
     });
     if(count == 2){
         drop.innerHTML = "";
+        img.src = "https://static.thenounproject.com/png/1123247-200.png"
         count = 0;
     }
 });

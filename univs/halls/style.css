@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/italiana');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Italiana', sans-serif;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#header{
+    display: flex;
+    padding: 16px 0;
+    background-color: gold;
+    margin-bottom: 32px;
+}
+
+.logo{
+    width: 149px;
+    height: 95px;
+    padding: 16px;
+    margin-left: 8px;
+}
+
+h1{
+    font-size: 64px;
+    padding: 12px;
+    margin-left: 410px;
+    padding-top: 32px;
+}
+
+#meals{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.box{
+    width: 400px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#imgboxb,
+#imgboxd{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    outline: 1px solid black;
+    margin: 20px auto;
+}
+
+#imgboxb{
+    background-image: url("./images/brunch.jpg");
+}
+
+#imgboxd{
+    background-image: url("./images/dinner.jpg");
+}
+
+h2{
+    font-size: 48px;
+}
