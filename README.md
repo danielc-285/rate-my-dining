@@ -1,1 +1,1 @@
-# rate-my-dining
+This is a project created during SBHacks meant to allow students to rate food items at their university dining halls. Other students would be able to view these ratings and decide which food items are appealing to them. 
